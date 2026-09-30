@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #080808;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 60px 8%;
+
+    overflow: hidden;
+
+    background: #101010;
+}
+
+.content {
+    width: 50%;
+}
+
+.content p:first-child {
+    letter-spacing: 5px;
+    color: #aaa;
+}
+
+h1 {
+    font-size: 70px;
+    letter-spacing: 10px;
+    margin: 25px 0;
+}
+
+.content p {
+    line-height: 1.6;
+    color: #aaa;
+}
+
+button {
+    margin-top: 30px;
+    padding: 15px 30px;
+
+    background: white;
+    color: black;
+
+    border: none;
+    border-radius: 30px;
+
+    cursor: pointer;
+}
+
+.car {
+    font-size: 180px;
+
+    transition: transform 0.2s ease;
+}
+.second-section {
+    height:100vh;
+
+    display:flex;
+    flex-direction:column;
+
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    background: #181818;
+}
+
+.second-section h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
